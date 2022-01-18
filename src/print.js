@@ -1,3 +1,4 @@
 export default function printMe() {
-    console.log('I get called from print.js!');
-  }
+  // eslint-disable-next-line no-console
+  console.log('I get called from print.js!');
+}
